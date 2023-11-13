@@ -1,0 +1,63 @@
+part 1 
+after d
+Is this address listed in the table above
+No
+
+How many copies of the PDU did Switch1 make?
+3
+
+What is the IP address of the device that accepted the PDU?
+172.16.31.3
+
+What happened to the source and destination MAC addresses?
+Source became destination, FFFF.FFFF.FFFF turned into MAC address of 172.16.31.3
+
+How many copies of the PDU did the switch make during the ARP reply?
+1
+
+step 2
+
+Do the MAC addresses of the source and destination align with their IP addresses?
+Yes
+
+To what IP address does the MAC address entry correspond?
+172.16.31.3
+
+In general, when does an end device issue an ARP request?
+When it does not know the receiver’s MAC address.
+
+part 2
+How many replies were sent and received?
+4 sent, 4 received.
+
+Do the entries correspond to those in the table above?
+Yes
+
+Do the entries correspond to those in the table above?
+Yes
+
+Why are two MAC addresses associated with one port?
+Потому что оба устройства подключаются к одному порту через точку доступа.
+
+part 3
+What is the IP address of the new ARP table entry?
+172.16.31.1
+
+How many PDUs appear?
+2
+
+What is the target destination IP destination address of the ARP request?
+172.16.31.1
+
+The gateway address of the router interface is stored in the IPv4 configuration of the hosts. If the receiving host is not on the same network, the source uses the ARP process to determine a MAC address for the router interface serving as the gateway.
+Адрес шлюза интерфейса маршрутизатора хранится в конфигурации IPv4 хостов. Если принимающий хост не находится в той же сети, источник использует процесс ARP для определения MAC-адреса интерфейса маршрутизатора, выступающего в качестве шлюза.
+Translated with ⁨Google⁩ (⁨English → Russian⁩)
+
+How many MAC addresses are in the table? Why?
+Zero. This command means something completely different than the switch command show mac address-table.
+
+Is there an entry for 172.16.31.2?
+Yes
+
+What happens to the first ping in a situation where the router responds to the ARP request?
+It times out.

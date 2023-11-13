@@ -1,0 +1,5 @@
+PC-A MAC Address: 000D.BD6D.3CC8
+PC-B MAC Address: 000D.BD6D.3CC8
+
+S1 Fast Ethernet 0/1 MAC Address: 0009.7cb6.0001
+S2 Fast Ethernet 0/1 MAC Address: 0060.2fc5.6a01
